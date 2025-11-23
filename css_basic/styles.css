@@ -1,0 +1,74 @@
+body, main {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+}
+
+main {
+    flex-direction: row;
+    flex: auto;
+    border: 1px solid#d6d6d5;
+}
+
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+    background: #e9e7e7;
+}
+
+main a {
+    color: #333;
+    font-size: 1.2rem;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+article, aside {
+    overflow-y: auto;
+}
+
+img {
+    border: 1px solid #afaeae;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+header {
+    background: #d6d6d5;
+}
+
+table {
+    border:1px solid #333;
+}
+
+td, th {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer a {
+    color: #fff;
+}
